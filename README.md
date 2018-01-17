@@ -14,7 +14,7 @@
 
 ## Wireframe
 
-![wireframe](https://github.com/jacobjwon/smoovment/assets/images/wireframe.png "Wireframe")
+![wireframe](https://github.com/jacobjwon/smoovment/blob/master/assets/images/wireframe.png "Wireframe")
 
 ## Implementation Timeline
 
