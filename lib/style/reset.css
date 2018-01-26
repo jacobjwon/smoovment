@@ -1,0 +1,15 @@
+body, main, p, h1, h2, h3, h4, span, div, form, label, ul, li, a {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  font-family: "Muli", sans-serif;
+  background: transparent;
+}
+
+a:hover {
+  cursor: pointer;
+}

@@ -1,25 +1,5 @@
 # Smoovment - Audio Visualizer
 
-## Features
+# Use
 
-* At least 2 visualization styles
-* Adjust color/randomize color
-* Play a sample track
-* Upload and play own song
-
-## Technologies
-
-* jQuery
-* Researching libraries to make my thing look cool
-
-## Wireframe
-
-![wireframe](https://github.com/jacobjwon/smoovment/blob/master/assets/images/wireframe.png "Wireframe")
-
-## Implementation Timeline
-
-**Day 1** Style page, add music (audio API), and pick a visualizer library to use
-
-**Day 2** Create 1st visualization
-
-**Day 3** Create 2nd visualization
+Download the project and copy full path the index.html file to your browser. Drag and drop or select an mp3 file to play.

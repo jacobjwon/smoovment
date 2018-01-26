@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: #263238;
+  color: #FEFEFE;
+}
+#fileWrapper{
+  transition:all 0.5s ease;
+}
+#fileWrapper:hover{
+  opacity: 1!important;
+}
+
+#visualizer_wrapper{
+  text-align: center;
+}
+footer{
+  position: fixed;
+  bottom: 2px;
+  color:#aaa;
+}
+#mono-R
+{
+  transform: rotateX(230deg);
+  -webkit-transform:(230deg);
+  transform: rotateX(230deg);
+  top: -66px;
+  position: relative;
+}
+
+input[type="file"]
+{
+  background: #0CD7FD;
+}
+
+#info
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  top: 120px;
+  font-size: 28px;
+}
+
+.text{
+  color: #FEFEFE;
+  font-size: 30px;
+}
+
+ul.personal-info {
+  list-style: none;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+}
+
+ul.personal-info > li {
+  margin: 0 10px;
+}
+
+ul.personal-info > li:hover {
+  opacity: .5;
+  transition: .2s;
+  cursor: pointer;
+}
