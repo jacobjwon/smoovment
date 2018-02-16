@@ -1,10 +1,10 @@
 :root{
-  --bgColor : hsla(242, 86%, 6%, 1);
-  --bgColorLight : hsla(242, 86%, 24%, 1);
+  --bgColor : hsla(0, 0%, 0%, 1);
+  --bgColorLight : hsla(200, 52%, 13%, 1);
   --textColor : hsla(242, 86%, 88%, 1);
   --textColorDark : hsla(242, 36%, 0%, 1);
-  --paperColor: hsla(242, 86%, 44%, 1);
-  --paperColorDark: hsla(242, 86%, 34%, 1);
+  --paperColor: 	hsla(192, 11%, 53%, 1);
+  --paperColorDark: hsla(192, 11%, 34%, 1);
   --shadowColorFaint: hsla(0, 0%, 0%, 0.2);
 }
 
@@ -21,7 +21,7 @@ html, body{
   background: var(--bgColor);
   background: linear-gradient(135deg, var(--bgColor), var(--bgColorLight));
   color: var(--textColor);
-  font-family: 'Saira', sans-serif;
+  font-family: 'Muli', sans-serif;
   position: relative;
 }
 
@@ -36,6 +36,38 @@ html, body{
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+nav > div {
+  display: flex;
+  margin: 5px;
+}
+
+nav > div.title {
+  position: absolute;
+  font-size: 24px;
+  cursor: default;
+}
+
+ul.personal-info {
+  list-style: none;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+}
+
+ul.personal-info > li {
+  margin: 0 10px;
+}
+
+ul.personal-info > li:hover {
+  opacity: .5;
+  transition: .2s;
+  cursor: pointer;
 }
 
 audio {
@@ -54,16 +86,14 @@ audio.active{
 	height: 0.1px;
 	opacity: 0;
 	overflow: hidden;
-	position: absolute;
+	position: relative;
 	z-index: 1;
 }
 
 label.file{
-  display: inline-block;
+  display: flex;
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate3d(-50%, -50%, 0);
   padding: 1rem 2rem;
   border-radius: 4px;
 
@@ -79,18 +109,8 @@ label.file{
 
 label.file:hover{
     background: var(--paperColorDark);
-    transform: translate3d(-50%, -55%, 0);
 }
 
 label.file:active{
     background: var(--paperColorDark);
-    transform: translate3d(-50%, -45%, 0);
-}
-
-label.file.normal{
-  transform: translate3d(10%, 50%, 0);
-  padding: 0.2rem 2rem;
-  font-size: 1rem;
-  top: 0;
-  left: 0;
 }

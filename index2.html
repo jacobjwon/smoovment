@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Smoovment</title>
+      <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="lib/style/reset.css">
+      <link type="text/css" rel="stylesheet" href="lib/style/style.css">
+    </head>
+    <body>
+      <nav class="nav">
+        <h1>smoovment<h1>
+        <label for="uploadedFile">drag & drop / select a file :</label>
+        <input type="file" id="uploadedFile"></input>
+      </nav>
+
+      <div id="wrapper">
+        <div id="fileWrapper" class="file_wrapper">
+          <div id="info">
+          </div>
+
+        </div>
+
+        <div id="visualizer_wrapper">
+          <canvas id='mono-L' width="1200" height="350"></canvas>
+          <canvas id='mono-R' width="1200" height="350"></canvas>
+        </div>
+
+      </div>
+      <ul class="personal-info">
+        <li><a href="https://github.com/jacobjwon/smoovment/" target="_blank" title="Github">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a></li>
+
+        <li class="linkedin">
+          <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        <li class="website">
+          <a href="#" title="Personal Website">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+
+      <script type="text/javascript" src="lib/js/visualizer.js"></script>
+    </body>
+</html>
